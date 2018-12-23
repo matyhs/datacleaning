@@ -70,7 +70,7 @@ for(i in featuresFilter){
 
 # tidy up signal values to be separated to different columns
 
-for(i in seq_along(1:120)){
+for(i in seq_along(1:128)){
     datasetTrain <- datasetTrain %>% mutate(!!paste0("bodyaccelsignalx-", i) := retrieveData(bodyaccx, i),
                                             !!paste0("bodyaccelsignaly-", i) := retrieveData(bodyaccy, i),
                                             !!paste0("bodyaccelsignalz-", i) := retrieveData(bodyaccz, i),
@@ -113,7 +113,7 @@ for(i in featuresFilter){
 
 # tidy up signal values to be separated to different columns
 
-for(i in seq_along(1:120)){
+for(i in seq_along(1:128)){
     datasetTest <- datasetTest %>% mutate(!!paste0("bodyaccelsignalx-", i) := retrieveData(bodyaccx, i),
                                           !!paste0("bodyaccelsignaly-", i) := retrieveData(bodyaccy, i),
                                           !!paste0("bodyaccelsignalz-", i) := retrieveData(bodyaccz, i),
