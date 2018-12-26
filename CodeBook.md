@@ -14,25 +14,7 @@ measurements using mean and standard deviations.
 2. Activity - activity done by the subject
 3. Type - indicator where the data came from (Training/Test)
 4. Feature vectors - feature data separated per column and filtered on measures 
-                     using mean and standard deviation
-5. Acceleration Signal X vectors - 128 columns containing the acceleration signals
-                                   X
-6. Acceleration Signal Y vectors - 128 columns containing the acceleration signals
-                                   Y
-7. Acceleration Signal Z vectors - 128 columns containing the acceleration signals
-                                   Z
-8. Gyroscope Signal X vectors - 128 columns containing the gyroscope velocity signals
-                                X
-9. Gyroscope Signal Y vectors - 128 columns containing the gyroscope velocity signals
-                                Y
-10. Gyroscope Signal Z vectors - 128 columns containing the gyroscope velocity signals
-                                 Z                                
-11. Phone Acceleration Signal X vectors - 128 columns containing the phone  
-                                          acceleration signals X
-12. Phone Acceleration Signal Y vectors - 128 columns containing the phone  
-                                          acceleration signals Y
-13. Phone Acceleration Signal Z vectors - 128 columns containing the phone  
-                                          acceleration signals Z                              
+                     using mean and standard deviation                          
 
 ### Variable - summarydataset
 
@@ -42,26 +24,8 @@ each subject and their activities
 
 1. Subject - the subject number
 2. Activity - activity done by the subject
-3. Feature vectors - feature data separated per column and filtered on measures 
-                     using mean and standard deviation
-4. Mean Acceleration Signal X vectors - 128 columns containing the acceleration signals
-                                        X (mean)
-5. Mean Acceleration Signal Y vectors - 128 columns containing the acceleration signals
-                                        Y (mean)
-6. Mean Acceleration Signal Z vectors - 128 columns containing the acceleration signals
-                                        Z (mean)
-7. Mean Gyroscope Signal X vectors - 128 columns containing the gyroscope velocity signals
-                                     X (mean)
-8. Mean Gyroscope Signal Y vectors - 128 columns containing the gyroscope velocity signals
-                                     Y (mean)
-9. Mean Gyroscope Signal Z vectors - 128 columns containing the gyroscope velocity signals
-                                     Z (mean)                              
-10. Mean Phone Acceleration Signal X vectors - 128 columns containing the phone  
-                                               acceleration signals X (mean)
-11. Mean Phone Acceleration Signal Y vectors - 128 columns containing the phone  
-                                               acceleration signals Y (mean)
-12. Mean Phone Acceleration Signal Z vectors - 128 columns containing the phone  
-                                               acceleration signals Z (mean)
+3. Feature vectors (mean) - mean of feature data separated per column and filtered on measures 
+                            using mean and standard deviation
 
 ## Data transformation:
 
